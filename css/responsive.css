@@ -46,63 +46,88 @@
         order: 1;
     }
 
-    /* Estilo dos botões de contato */
-section.contato{
-    background-color: #fff;
-    padding: 80px 0;
-}
-
+    /* Estilo dos botões de contato */ 
 .txt-contato, .icons-contato{
-    display: inline-block;
-    width: 50%;
-    margin-right: -4px;
-    vertical-align: middle;
+    display: block;
+    width: 100%;
 }
 
 .contato .txt-contato h3{
-    font-size: 2.5em;
-    line-height: 50px;
-    font-weight: 300;
-    margin-bottom: 20px;
+    font-size: 2em;
+    line-height: 40px;
 }
 
-.contato .txt-contato h3 span{
-    display: block;
-    font-weight: 700;
-}
-
-.contato .icons-contato a{
-    text-decoration: none;
-}
+    .contato .txt-contato p {
+        margin-bottom: 20px;
+    }
+    
 
 .contato .icons-contato button{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 
-    width: 60%;
-    height: 60px;
-    margin: 0 auto 20px auto;
-    padding: 0 60px;
-
-    background-color: transparent;
-    border: 2px solid #000;
-    cursor: pointer;
-
-    transition: .5s;
+    width: 100%;
 }
 
-.contato .icons-contato button i{
-    font-size: 24px;
-} 
+/* Estilo das sessões Academia  */
 
-.contato .icons-contato button:hover{
-    background-color: #000;
+
+.academia h3{
+    font-size: 2em;
+    line-height: 40px;
 }
 
-.contato .icons-contato button:hover i, .contato .icons-contato button:hover p{
-     color: #fff;
+
+
+.academia p{
+    margin: 20px 0;
+    font-size: 16px;
 }
 
+/* Estilo da sesão como funciona  */
+   
+
+    .txt-funciona, .instrucoes{
+        display: block;
+        width: 100%;
+
+    }
+
+    .como-funciona .txt-funciona{
+        position: static;
+    }
+
+    .como-funciona .txt-funciona h3{
+        font-size: 3em;
+        line-height: 50px;
+        
+    }
+
+   
+
+    .instrucoes .instru-box{
+        flex-direction: column;
+        text-align: center;
+       
+    }
+
+    /* Estilo do rodape */
+
+
+footer .middle-footer{
+    margin: 20px 0;
+}
+
+footer .middle-footer a{
+    color: #fff;
+    margin: 0 15px;
+}
+
+footer .bottom-footer{
+    border-top: 2px solid #fff;
+}
+
+footer .bottom-footer p{
+    color: #fff;
+    margin-top: 10px;
+}
 
    }
